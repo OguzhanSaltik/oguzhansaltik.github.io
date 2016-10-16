@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog: Raspberry Pi</title>
+  <subtitle>Posts tagged with Raspberry Pi</subtitle>
+  <id>http://www.oguzhansaltik.github.io</id>
+  <link href="http://www.oguzhansaltik.github.io"/>
+  <link href="http://www.oguzhansaltik.github.io/tag/raspberry-pi/feed.xml" rel="self"/>
+  <updated>2016-10-16T03:00:00+03:00</updated>
+  <author>
+    <name>Oğuzhan Saltık</name>
+  </author>
+  <entry>
+    <title>Raspberry Pi Dosya Transferi</title>
+    <link rel="alternate" href="http://www.oguzhansaltik.github.io/2016/10/16/raspberry-pi-dosya-transferi/"/>
+    <id>http://www.oguzhansaltik.github.io/2016/10/16/raspberry-pi-dosya-transferi/</id>
+    <published>2016-10-16T03:00:00+03:00</published>
+    <updated>2016-10-16T22:13:12+03:00</updated>
+    <author>
+      <name>Oğuzhan Saltık</name>
+    </author>
+    <summary type="html">Raspberry Pi içerisine SSH ile erişim yapacak olan bilgisayar üzerinden dosyanın nasıl yollanacağını içermektedir.                                                                                                                                      
+
+</summary>
+  </entry>
+  <entry>
+    <title>Raspberry Pi SSH Bağlantısı</title>
+    <link rel="alternate" href="http://www.oguzhansaltik.github.io/2016/10/16/raspberry-pi-ssh-baglantisi/"/>
+    <id>http://www.oguzhansaltik.github.io/2016/10/16/raspberry-pi-ssh-baglantisi/</id>
+    <published>2016-10-16T22:11:00+03:00</published>
+    <updated>2016-10-16T22:11:47+03:00</updated>
+    <author>
+      <name>Oğuzhan Saltık</name>
+    </author>
+    <summary type="html">Raspberry Pi ‘ye harici bir program kurmadan farklı bir bilgisayardan SSH bağlantısı sağlayarak erişimin nasıl sağlanacağını içermektedir.                                                                                                              
+
+</summary>
+  </entry>
+</feed>

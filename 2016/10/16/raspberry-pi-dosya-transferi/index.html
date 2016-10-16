@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Blog: Raspberry Pi Dosya Transferi</title>
+<meta content='Raspberry Pi içerisine SSH ile erişim yapacak olan bilgisayar üzerinden dosyanın nasıl yollanacağını içermektedir. SSH Bağlantısı Raspberry Pi &amp;...' name='description'>
+<meta charset='utf-8'>
+<meta content='width=device-width, initial-scale=1.0' name='viewport'>
+<meta content='IE=edge' http-equiv='X-UA-Compatible'>
+<meta content='True' name='HandheldFriendly'>
+<meta content='Blog' property='og:site_name'>
+<meta content='article' property='og:type'>
+<meta content='Raspberry Pi Dosya Transferi' property='og:title'>
+<meta content='Raspberry Pi içerisine SSH ile erişim yapacak olan bilgisayar üzerinden dosyanın nasıl yollanacağını içermektedir. SSH Bağlantısı Raspberry Pi &amp;...' property='og:description'>
+<meta content='http://www.oguzhansaltik.github.io/2016/10/16/raspberry-pi-dosya-transferi/' property='og:url'>
+<meta content='http://www.oguzhansaltik.github.io/images/person-holding-files.jpeg' property='og:image'>
+<meta content='2016-10-16' property='article:published_time'>
+<meta content='summary' name='twitter:card'>
+<meta content='Raspberry Pi Dosya Transferi' name='twitter:title'>
+<meta content='Raspberry Pi içerisine SSH ile erişim yapacak olan bilgisayar üzerinden dosyanın nasıl yollanacağını içermektedir. SSH Bağlantısı Raspberry Pi &amp;...' name='twitter:description'>
+<meta content='http://www.oguzhansaltik.github.io/2016/10/16/raspberry-pi-dosya-transferi/' name='twitter:url'>
+<meta content='http://www.oguzhansaltik.github.io/images/person-holding-files.jpeg' name='twitter:image:src'>
+<link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
+<link href="/images/favicon.ico" rel="icon" type="image/ico" />
+<link href="/stylesheets/application.css" rel="stylesheet" />
+</head>
+<body class='post-template nav-closed'>
+<div class='nav'>
+<h3 class='nav-title'>Menu</h3>
+<a class='nav-close' href='#'>
+<span class='hidden'>Close</span>
+</a>
+<ul>
+<li class='nav-anasayfa' role='presentation'>
+<a href='/'>Anasayfa</a>
+</li>
+<li class='nav-github' role='presentation'>
+<a href='https://github.com'>GitHub</a>
+</li>
+<li class='nav-author' role='presentation'>
+<a href='/author/oguzhan-saltik/'>Author</a>
+</li>
+</ul>
+<a class='subscribe-button icon-feed' href='/feed.xml'>Subscribe</a>
+</div>
+<span class='nav-cover'></span>
+
+<div class='site-wrapper'>
+<header class='main-header post-head' style='background-image: url(/images/person-holding-files.jpeg)'>
+<nav class='clearfix main-nav overlay'>
+<a class='menu-button icon-menu' href='#'>
+<span class='word'>Menu</span>
+</a>
+</nav>
+</header>
+<main class='content' role='main'>
+<article class='post'>
+<header class='post-header'>
+<h1 class='post-title'>Raspberry Pi Dosya Transferi</h1>
+<section class='post-meta'>
+<time class='post-date' datetime='2016-10-16'>
+16 October 2016
+</time>
+on <a href='/tag/raspberry-pi/'>Raspberry Pi</a>, <a href='/tag/ssh/'>SSH</a>, <a href='/tag/terminal/'>Terminal</a>, <a href='/tag/dosya-transferi/'>Dosya Transferi</a>
+</section>
+</header>
+<section class='post-content'><p>Raspberry Pi içerisine SSH ile erişim yapacak olan bilgisayar üzerinden dosyanın nasıl yollanacağını içermektedir.                                                                                                                                      </p>
+
+<h2>SSH Bağlantısı</h2>
+
+<p>Raspberry Pi &lsquo;ye SSH bağlatısını sağlamak için ilgili <a href="http://ghost.org/" rel="nofollow">blog yazımıza</a> göz atabilirsiniz.</p>
+
+<p>Terminali açıp <code>scp FROM_ADDRESS USER_NAME@IP_ADDRESS:TO_ADDRESS</code> formatında bir komut ile dosya transferi gerçekleştirmeye çalışacağız.</p>
+
+<p><code>FROM_ADDRESS</code>: SSH &#39;ın açıldığı bilgisayar, yani laptop üzerinden Raspberry Pi &#39;ye dosya yollanacaksa laptop üzerindeki dosyanın konumu.</p>
+
+<p><code>USER_NAME</code>: Raspberry Pi üzerinde dosyanın yollanacağı kullanıcının hesap adı.</p>
+
+<p><code>IP_ADDRESS</code>: Raspberry Pi &#39;ye ait IP adresi.</p>
+
+<p><code>TO_ADDRESS</code>: Raspberry Pi üzerinde dosyanın kaydedileceği dizinin konumu.</p>
+
+<p><img src="/images/raspberry-pi-file-transfer.png" alt="SSH File Transfer" /></p>
+
+<p>Şifremizi girmemizi istiyor, başarılı bir şekilde doğrulandıktan sonra aktarım tamamlanmış oluyor. Bu şekilde PC &#39;deki bir dosyayı Raspberry Pi içerisine SSH bağlantısı ile kolaylıkla kopyalayabilsiniz.</p>
+</section>
+<footer class='post-footer'>
+<figure class='author-image'>
+<a class='img' href='/author/oguzhan-saltik/' style='background-image: url(https://www.gravatar.com/avatar/863b564b9244752e11eb37ac2b58f2b4?size=68)'>
+<span class='hidden'>Oğuzhan Saltık's Picture</span>
+</a>
+</figure>
+<section class='author'>
+<h4>
+<a href='/author/oguzhan-saltik/'>Oğuzhan Saltık</a>
+</h4>
+<p></p>
+Java mimarileri, Reactive Programlama ve DevOps ile yakından ilgilenip, yeni teknolojileri öğrenme konusunda müthiş tutkulu bir yapıya sahiptir.
+<div class='author-meta'>
+<span class='author-location icon-location'>İzmir</span>
+<span class='author-link icon-link'>
+<a href='http://oguzhansaltik.github.io'>http://oguzhansaltik.github.io</a>
+</span>
+</div>
+</section>
+<section class='disqus'><div id="disqus_thread"></div>
+<script>
+  var disqus_config = function () {
+    this.page.url = current_page.url;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = current_page.data.title; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+  };
+
+  (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = '//oguzhansaltik.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
+<section class='share'>
+<h4>Share this post</h4>
+<a class='icon-twitter' href='https://twitter.com/intent/tweet?text=Raspberry Pi Dosya Transferi&amp;amp;url=http://www.oguzhansaltik.github.io/2016/10/16/raspberry-pi-dosya-transferi/' onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+<span class='hidden'>Twitter</span>
+</a>
+<a class='icon-facebook' href='https://www.facebook.com/sharer/sharer.php?u=http://www.oguzhansaltik.github.io/2016/10/16/raspberry-pi-dosya-transferi/' onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+<span class='hidden'>Facebook</span>
+</a>
+<a class='icon-google-plus' href='https://plus.google.com/share?url=http://www.oguzhansaltik.github.io/2016/10/16/raspberry-pi-dosya-transferi/' onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+<span class='hidden'>Google+</span>
+</a>
+</section>
+</footer>
+</article>
+</main>
+<aside class='read-next'>
+<a class='read-next-story prev' href='/2016/10/16/raspberry-pi-ssh-baglantisi/' style='background-image: url(/images/keyboard-light.jpg)'>
+<section class='post'>
+<h2>Raspberry Pi SSH Bağlantısı</h2>
+<p>Raspberry Pi ‘ye harici bir program kurmadan farklı bir bilgisayardan SSH bağlantısı sağlayarak erişimin nasıl sağlanacağını içermektedir. Ön Gereksinimler&hellip;</p>
+</section>
+</a>
+</aside>
+
+<footer class='site-footer clearfix'>
+<section class='copyright'>
+<a href='/'>Blog</a>
+&copy;
+2016
+</section>
+<section class='poweredby'>
+Casper theme powered by
+<a href='https://ghost.org'>Ghost</a>
+</section>
+</footer>
+</div>
+<script src="/javascripts/application.js"></script>
+</body>
+</html>
